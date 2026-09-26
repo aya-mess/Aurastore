@@ -1,4 +1,9 @@
 # 🎮 Aurastore — Gaming E-Commerce Platform
+## 📐 System Architecture & Class Diagram
+
+![Class Diagram](docs-design/uml/5.png)
+
+
 English
 📌 Project Overview
 Aurastore is an online e-commerce platform dedicated to high-performance gaming hardware, peripherals, and minimalist tech setups.
@@ -51,7 +56,7 @@ Este repositorio sigue un flujo de trabajo iterativo. Se publicarán versiones d
 
 Project Directory Structure / Estructura del Proyecto
 
-aurastore/
+'''aurastore/
 ├── index.html              # Home Page / Página Principal
 ├── store.html              # Catalog Page / Catálogo de Productos
 ├── collection.html         # Featured Collections / Colecciones
@@ -69,4 +74,4 @@ aurastore/
 └── docs-design/            # Architecture & Design Assets / Documentación y Diseño
     ├── database/           # SQL Schemas & Queries / Esquemas y Consultas SQL
     ├── figma/              # Design Mockups / Prototipos de Figma
-    └── uml/                # UML Diagrams / Mapeo de Diagramas UML
+    └── uml/                # UML Diagrams / Mapeo de Diagramas UML '''
