@@ -1,0 +1,86 @@
+/* --- Aura Store Base Theme --- */
+:root {
+  --bg-dark: #d7b5ff;
+  --bg-card: #16161a;
+  --accent-purple: #8a2be2;
+  --accent-glow: rgba(138, 43, 226, 0.25);
+  --text-muted: #a0a0aa;
+}
+
+body {
+  background-color: var(--bg-dark);
+  color: #f5f5f7;
+  font-family: 'Inter', system-ui, -apple-system, sans-serif;
+}
+nav{
+  background-color: var(--bg-card);
+  padding: 20px;
+  
+}
+ul{
+  justify-content: space-between;
+  display: flex;
+  align-items: center;
+  margin-left: 50px;
+  list-style: none;
+  position: relative;
+}
+ul:hover{
+  color: var(--bg-dark);
+}
+
+/* Navbar Minimalist Style */
+.bg-aura {
+  background-color: rgba(15, 15, 18, 0.85) !important;
+  backdrop-filter: blur(12px); /* لمسة الزجاج العصري */
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+}
+
+.brand-badge {
+  width: 10px;
+  height: 10px;
+  background-color: var(--accent-purple);
+  border-radius: 50%;
+  box-shadow: 0 0 10px var(--accent-purple);
+}
+
+.brand-text {
+  letter-spacing: 2px;
+  font-size: 1.2rem;
+  color: #fff;
+}
+
+.brand-sub {
+  color: var(--accent-purple);
+  font-weight: 300;
+}
+
+.nav-link {
+  color: var(--text-muted) !important;
+  font-size: 0.95rem;
+  font-weight: 400;
+  transition: color 0.3s ease;
+}
+
+.nav-link:hover, .nav-link.active {
+  color: #fff !important;
+}
+
+.btn-outline-aura {
+  border: 1px solid var(--accent-purple);
+  color: #fff;
+  transition: all 0.3s ease;
+}
+
+.btn-outline-aura:hover {
+  background-color: var(--accent-purple);
+  color: #fff;
+  box-shadow: 0 0 15px var(--accent-glow);
+}
+
+.bg-purple {
+  background-color: var(--accent-purple) !important;
+  font-size: 0.65rem;
+}
