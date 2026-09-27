@@ -1,7 +1,13 @@
 # 🎮 Aurastore — Gaming E-Commerce Platform
 ## 📐 System Architecture & Class Diagram
 
-![Class Diagram](docs-design/uml/5.png)
+![Class Diagram](docs-design/uml/classdiagram.png)
+
+![Use Case Diagram](docs-design/uml/usecasediagram.png)
+[![Figma Design](docs-design/figma/navbardesign.png)](https://www.figma.com/design/omLDZCBqjh3GUBFBPbY58c/home-dec?node-id=0-1&t=vrvuJUikLa9dXcDE-1)
+
+👉 [View Figma Workspace](https://www.figma.com/design/omLDZCBqjh3GUBFBPbY58c/home-dec?node-id=0-1&t=vrvuJUikLa9dXcDE-1)
+
 
 
 English
@@ -28,8 +34,18 @@ SQL: Relational database architecture, data modeling, and distributed query opti
 
 📈 Incremental Versioning & Workflow
 This repository follows an iterative development workflow. Incremental versions and feature updates are regularly committed to GitHub to track continuous improvements, code refactoring, and stability enhancements over time.
-__________________________________---------------------------------------------__________________________________
+
+
+
+   -----------------------------
+
+
+
+
+
+
 Español
+
 📌 Descripción del Proyecto
 Aurastore es una plataforma de comercio electrónico orientada a periféricos gaming de alto rendimiento y componentes informáticos con una estética cuidada.
 
@@ -54,24 +70,26 @@ SQL: Diseño de bases de datos relacionales, modelado de datos y optimización m
 📈 Control de Versiones e Integración Continua
 Este repositorio sigue un flujo de trabajo iterativo. Se publicarán versiones de forma periódica en GitHub para registrar el progreso, la refactorización del código y la evolución continua del sistema.
 
-Project Directory Structure / Estructura del Proyecto
 
-'''aurastore/
-├── index.html              # Home Page / Página Principal
-├── store.html              # Catalog Page / Catálogo de Productos
-├── collection.html         # Featured Collections / Colecciones
-├── about.html              # About Us / Sobre Nosotros
-├── README.md               # Project Documentation / Documentación
-│
-├── css/                    # Modular Stylesheets / Hojas de Estilo Modulares
-│   ├── style.css           # Global Styles / Estilos Globales
-│   └── navbar.css          # Navigation Styling / Estilos de la Barra de Navegación
-│
-├── js/                     # Client-Side Logic / Lógica JavaScript
-│   ├── components.js       # Reusable UI Components / Componentes Reutilizables (Navbar)
-│   └── main.js             # General Interactivity / Interactividad General
-│
-└── docs-design/            # Architecture & Design Assets / Documentación y Diseño
-    ├── database/           # SQL Schemas & Queries / Esquemas y Consultas SQL
-    ├── figma/              # Design Mockups / Prototipos de Figma
-    └── uml/                # UML Diagrams / Mapeo de Diagramas UML '''
+### 📂 Project Directory Structure / Estructura del Proyecto
+
+
+
+```text
+aurastore/
+├── index.html          # Home Page / Página Principal
+├── store.html          # Catalog Page / Catálogo de Productos
+├── collection.html     # Featured Collections / Colecciones
+├── about.html          # About Us / Sobre Nosotros
+├── README.md           # Project Documentation / Documentación
+├── css/                # Modular Stylesheets / Hojas de Estilo
+│   ├── style.css       # Global Styles / Estilos Globales
+│   └── navbar.css      # Navigation Styling / Estilos de Navegación
+├── js/                 # Client-Side Logic / Lógica JavaScript
+│   ├── components.js   # Reusable UI Components (Navbar)
+│   └── main.js         # General Interactivity
+└── docs-design/        # Architecture & Design Assets
+    ├── database/       # SQL Schemas & Queries
+    ├── figma/          # Design Mockups / Prototipos
+    └── uml/            # UML Diagrams (Class & Use Case)
+```
