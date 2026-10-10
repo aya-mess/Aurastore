@@ -11,6 +11,14 @@ body {
 /* Hero placeholder: replace with your gaming setup photo */
 .hero {
   min-height: 100vh;
+  background-image:
+  linear-gradient(rgba(13, 11, 20, 0.25), rgba(13, 11, 20, 0.25)),
+  url("../assets/images/setup.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+.page-content {
+   min-height: 100vh;
   background: linear-gradient(135deg, #1a0b3b, #5b21b6 60%, #0d0b14);
-  /* background: url("../images/hero.jpg") center/cover no-repeat; */
 }
