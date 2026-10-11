@@ -13,7 +13,7 @@ body {
   min-height: 100vh;
   background-image:
   linear-gradient(rgba(13, 11, 20, 0.25), rgba(13, 11, 20, 0.25)),
-  url("assets/images/setup.jpg");
+  url("../assets/images/setup.jpg");
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -21,4 +21,8 @@ body {
 .page-content {
    min-height: 100vh;
   background: linear-gradient(135deg, #1a0b3b, #5b21b6 60%, #0d0b14);
+}
+h1{
+  text-align: center;
+  padding:50px;
 }
